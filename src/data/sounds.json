@@ -1,18 +1,26 @@
 [
   {
-    "id" : "PEKORALAUGH",
-    "name": "Pekora-shaddup.mp3",
+    "id" : "PEKORA-SHADDAP",
+    "name": "pekora/shaddup.mp3",
     "source": {
       "url": "",
-      "channel": ""
+      "channel": "PEKORA"
     }
   },
   {
-    "id" : "EXCITEDDIRE",
-    "name": "excited-dire.mp3",
+    "id" : "DIREWOLF-EXCITED",
+    "name": "direwolf/found.mp3",
     "source": {
       "url": "",
-      "channel": ""
+      "channel": "DIREWOLF"
+    }
+  },
+  {
+    "id" : "MOCO-VERYSTRONG",
+    "name": "moco/very-strong.mp3",
+    "source": {
+      "url": "https://youtu.be/1yVIohD-I-c?t=4517",
+      "channel": "MOCO"
     }
   }
 ]

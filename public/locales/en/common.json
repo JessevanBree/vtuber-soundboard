@@ -1,3 +1,6 @@
 {
-  "title": "Vtuber Soundboard"
+  "title": "Vtuber Soundboard",
+  "channel": "Check out: {{channel}}",
+  "source": "Source: {{url}}",
+  "disclaimer":  "This is a fan project........."
 }

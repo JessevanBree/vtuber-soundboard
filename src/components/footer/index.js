@@ -1,11 +1,11 @@
 import React from 'react'
-import * as Styled from '../footer/footer-styles' 
+import * as Styled from './footer-styles' 
 
-function Footer() {
+function Footer({t}) {
   return (
     <Styled.FooterContainer>
       <Styled.FooterText>
-        TEMPDisclaimer
+        {t('disclaimer')}
       </Styled.FooterText>
     </Styled.FooterContainer>
   )
