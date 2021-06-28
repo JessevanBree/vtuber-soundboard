@@ -15,13 +15,15 @@ export default class Sound extends Component {
   }
 
   render() {
-    const { id } = this.props
+    const { id, source } = this.props
 
     return (
-      <Styled.SoundContainer id={id}>
-        <h2>{id}</h2>
-        <button onClick={this.playAudio}>click</button>
-      </Styled.SoundContainer>
+      <>
+        <Styled.SoundContainer id={id} onClick={this.playAudio}>
+          <Styled.SoundTitle>{id}</Styled.SoundTitle>
+        </Styled.SoundContainer>
+        {/* {source.url && <a href={source.url} target="_blank">Source</a>} */}
+      </>
     )
   }
 }

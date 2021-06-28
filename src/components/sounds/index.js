@@ -6,7 +6,7 @@ export default function index({ sounds }) {
   return sounds ? (
     <Styled.SoundsContainer>
       {
-        sounds.map(sound => <Sound key={sound.id} {...sound}/>)
+        sounds.map(sound => <Sound key={`sound_${sound.id}`} {...sound}/>)
       }
     </Styled.SoundsContainer>
   ) : (

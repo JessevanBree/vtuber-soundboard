@@ -3,21 +3,32 @@ import * as Styled from './filter-styles'
 
 const channels = [
   {
+    name: 'All',
+    img: 'icon.png',
+    filterType: "ALL"
+  },
+  {
     name: 'Moco',
-    file: 'moco.jpg'
+    img: 'moco.jpg',
+    filterType: "MOCO"
   },
   {
     name: 'Usada Pekora',
-    file: 'pekora.jpg'
+    img: 'pekora.jpg',
+    filterType: "PEKORA"
   }
 ]
 
-function Filter() {
+function Filter({changeFilter}) {
   return (
     <>
       <Styled.FilterHeader>Filter</Styled.FilterHeader>
       <Styled.FilterContainer>
-        { channels.map((channel, i) => <Styled.FilterBlock key={`channel.name_${i}`} file={channel.file}>
+        { channels.map((channel, i) => <Styled.FilterBlock 
+          key={`channel.name_${i}`} 
+          img={channel.img} 
+          onClick={() => changeFilter(channel.filterType)}
+        >
           <Styled.FilterTitle>{channel.name}</Styled.FilterTitle>
         </Styled.FilterBlock>)}
       </Styled.FilterContainer>

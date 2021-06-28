@@ -5,4 +5,11 @@ export const SoundContainer = styled.div`
   min-width: 150px;
   min-height: 75px;
   background-color: pink;
+  cursor: pointer;
+  
+  &:hover {
+    background-color: hotpink;
+  }
 `
+
+export const SoundTitle = styled.h2``

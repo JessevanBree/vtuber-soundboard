@@ -23,10 +23,11 @@ export const FilterBlock = styled.div`
   margin: 5px;
   height: 80px;
   width: 80px;
-  background-image: url(${props => `/images/${props.file}`});
+  background-image: url(${props => `/images/${props.img}`});
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  cursor: pointer;
 `
 
 export const FilterTitle = styled.h4`
