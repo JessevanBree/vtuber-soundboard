@@ -1,8 +1,12 @@
 {
   "titles": {
-    "MOCO-VERYSTRONG": "Very strong"
+    "MOCO-VERYSTRONG": "Very strong",
+    "PEKORA-SHADDAP": "Shaddup!",
+    "DIREWOLF-EXCITED": "Excited"
   },
   "channels": {
-    "MOCO": "Small cat Moco"
+    "MOCO": "Small cat Moco",
+    "PEKORA": "Usada Pekora",
+    "DIREWOLF": "Direwolf"
   }
 }

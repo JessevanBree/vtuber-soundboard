@@ -4,7 +4,8 @@
     "name": "pekora/shaddup.mp3",
     "source": {
       "url": "",
-      "channel": "PEKORA"
+      "channel": "PEKORA",
+      "img": "pekora.jpg"
     }
   },
   {
@@ -20,7 +21,8 @@
     "name": "moco/very-strong.mp3",
     "source": {
       "url": "https://youtu.be/1yVIohD-I-c?t=4517",
-      "channel": "MOCO"
+      "channel": "MOCO",
+      "img": "moco.jpg"
     }
   }
 ]
