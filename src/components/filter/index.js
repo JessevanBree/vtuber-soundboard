@@ -1,30 +1,13 @@
 import React from 'react'
 import * as Styled from './filter-styles' 
-
-const channels = [
-  {
-    name: 'All',
-    img: 'icon.png',
-    filterType: "ALL"
-  },
-  {
-    name: 'Moco',
-    img: 'moco.jpg',
-    filterType: "MOCO"
-  },
-  {
-    name: 'Usada Pekora',
-    img: 'pekora.jpg',
-    filterType: "PEKORA"
-  }
-]
+import Channels from '../../data/channels.json'
 
 function Filter({changeFilter}) {
   return (
     <>
       <Styled.FilterHeader>Filter</Styled.FilterHeader>
       <Styled.FilterContainer>
-        { channels.map((channel, i) => <Styled.FilterBlock 
+        { Channels.map((channel, i) => <Styled.FilterBlock 
           key={`channel.name_${i}`} 
           img={channel.img} 
           onClick={() => changeFilter(channel.filterType)}

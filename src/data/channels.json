@@ -1,0 +1,17 @@
+[
+  {
+    "name": "All",
+    "img": "icon.png",
+    "filterType": "ALL"
+  },
+  {
+    "name": "Moco",
+    "img": "moco.jpg",
+    "filterType": "MOCO"
+  },
+  {
+    "name": "Usada Pekora",
+    "img": "pekora.jpg",
+    "filterType": "PEKORA"
+  }
+]

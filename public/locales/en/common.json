@@ -1,6 +1,7 @@
 {
   "title": "Vtuber Soundboard",
-  "channel": "Check out: {{channel}}",
+  "channel": "Channel",
+  "filter": "Filter",
   "source": "Source",
-  "disclaimer":  "This is a fan project........."
+  "disclaimer":  "This is a fan project made by Jesse van Bree"
 }

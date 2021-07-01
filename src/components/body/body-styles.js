@@ -2,7 +2,9 @@ import styled from 'styled-components'
 
 export const BodyContainer = styled.div`
   display: flex;
+  flex: 1;
+  align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
-  flex: 1;
+  margin: 0 25px;
 `
