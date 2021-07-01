@@ -23,9 +23,15 @@ class Sound extends Component {
     return (
       <>
         <Styled.SoundContainer id={id} onClick={this.playAudio}>
-          <Styled.SoundChannel href={source.url || "#"} target={source.url ? "_blank" : "_self"} >
+          <Styled.SoundChannel>
             <Styled.SoundChannelImage src={`/images/${source.img || 'yt.svg'}`} alt="channel image" />
-            <Styled.SoundSourceText onClick={(e) => { e.stopPropagation(); }}>{source.url && t('source')}</Styled.SoundSourceText>
+            <Styled.SoundSourceText 
+              onClick={(e) => { e.stopPropagation() }}
+              href={source.url || "#"} 
+              target={source.url ? "_blank" : "_self"}
+            >
+              {source.url && t('source')}
+            </Styled.SoundSourceText>
           </Styled.SoundChannel>
           <Styled.SoundTextContainer>
             <Styled.SoundChannelTitle>{t(`sounds:channels:${source.channel}`)}</Styled.SoundChannelTitle>

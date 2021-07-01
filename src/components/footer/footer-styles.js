@@ -5,12 +5,10 @@ export const FooterContainer = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  height: 40px;
   
-  height: 50px;
-
-  border-radius: 5px;
-  border-top: 2px solid black;
-  background-color: red;
+  color: ${({ theme }) => theme.colors.white};
+  background-color: ${({ theme }) => theme.colors.lightblue};
   background-position: center;
   background-repeat: no-repeat;
 `

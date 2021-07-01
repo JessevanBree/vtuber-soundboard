@@ -1,20 +1,25 @@
 import React from 'react'
-import * as Styled from './filter-styles' 
+import * as Styled from './filter-styles'
 import Channels from '../../data/channels.json'
 
-function Filter({changeFilter}) {
+function Filter({ changeFilter, selectedChannel }) {
   return (
     <>
       <Styled.FilterHeader>Filter</Styled.FilterHeader>
-      <Styled.FilterContainer>
-        { Channels.map((channel, i) => <Styled.FilterBlock 
-          key={`channel.name_${i}`} 
-          img={channel.img} 
-          onClick={() => changeFilter(channel.filterType)}
-        >
-          <Styled.FilterTitle>{channel.name}</Styled.FilterTitle>
-        </Styled.FilterBlock>)}
-      </Styled.FilterContainer>
+      <Styled.FiltersContainer>
+        {Channels.map((channel, i) => (
+          <Styled.FilterContainer key={`channel.name_${i}`}>
+            <Styled.FilterBlock
+              img={channel.img}
+              filterType={channel.filterType}
+              onClick={() => changeFilter(channel.filterType)}
+              selectedChannel={selectedChannel}
+            >
+            </Styled.FilterBlock>
+            <Styled.FilterTitle>{channel.name}</Styled.FilterTitle>
+          </Styled.FilterContainer>)
+        )}
+      </Styled.FiltersContainer>
     </>
   )
 }

@@ -6,5 +6,5 @@ export const BodyContainer = styled.div`
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
-  margin: 0 25px;
+  background-color: ${({ theme }) => theme.colors.white};
 `

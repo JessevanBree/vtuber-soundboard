@@ -8,11 +8,12 @@ export const SoundContainer = styled.div`
   margin: 5px;
   padding: 10px;
   border-radius: 25px;
-  background-color: pink;
+  background-color: ${({ theme }) => theme.colors.opal};
+  color: ${({ theme }) => theme.colors.white};
   cursor: pointer;
   
   &:hover {
-    background-color: hotpink;
+    background-color: ${({ theme }) => theme.colors.red};
   }
 `
 
@@ -25,7 +26,7 @@ export const SoundChannelImage = styled.img`
   border: 1px solid #ff8484;
 `
 
-export const SoundChannel = styled.a`
+export const SoundChannel = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -49,8 +50,9 @@ export const SoundTitle = styled.h3`
   margin: 0px;
 `
 
-export const SoundSourceText = styled.p`
+export const SoundSourceText = styled.a`
   margin: 0px;
+  color: ${({ theme }) => theme.colors.white};
 `
 
 

@@ -1,9 +1,10 @@
 import React, {Component} from 'react'
-import { withTranslation } from 'next-i18next'
-import * as Styled from './body-styles'
+import { withTheme } from 'styled-components'
 
 import Sounds from '../sounds'
 import Filter from '../filter'
+import Circle from '../circle'
+import * as Styled from './body-styles'
 
 import SoundList from '../../data/sounds.json'
 import Filters from '../../data/filters.json'
@@ -20,26 +21,34 @@ class Body extends Component {
   }
 
   compareChannels = ( prevSound, nextSound ) => {
-    const prevSoundTranslation = this.props.t(`sounds:channels:${prevSound.source.channel}`)
-    const nextSoundTranslation = this.props.t(`sounds:channels:${nextSound.source.channel}`)
-    if (prevSoundTranslation < nextSoundTranslation ) return -1
-    if (prevSoundTranslation > nextSoundTranslation ) return 1
+    if (prevSound.name < nextSound.name ) return -1
+    if (prevSound.name > nextSound.name ) return 1
     return 0
   }
 
   render() {
-    const { t } = this.props
+    const { t, theme:{ colors } } = this.props
     const filteredList = SoundList.sort(this.compareChannels).filter(sound => sound.source.channel.includes(this.state.selectedChannel))
-
+    console.log(colors.lightblue)
     return (
       <Styled.BodyContainer>
-        <Filter changeFilter={this.changeFilter}/>
+        <Filter 
+          changeFilter={this.changeFilter}
+          selectedChannel={this.state.selectedChannel}
+        />
         <h1>{t('title')}</h1>
         <Sounds sounds={filteredList} />
+        <Circle width={135} height={155} bgColor={colors.grey} bottom="15px" right="85px" />
+
+        <Circle width={50} height={65} bgColor={colors.grey} bottom="135px" right="230px" rotation="-25deg" />
+        <Circle width={50} height={75} bgColor={colors.grey} bottom="185px" right="165px" rotation="-10deg" />
+        <Circle width={50} height={75} bgColor={colors.grey} bottom="185px" right="95px" rotation="10deg" />
+        <Circle width={50} height={65} bgColor={colors.grey} bottom="135px" right="20px" rotation="25deg"/>
+
       </Styled.BodyContainer>
     )
   }
 }
 
-export default Body
+export default withTheme(Body)
 

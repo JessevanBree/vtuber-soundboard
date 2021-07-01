@@ -8,8 +8,8 @@ export const HeaderContainer = styled.div`
   
   height: 100px;
 
-  border-bottom: 2px solid black;
-  background-color: red;
+  color: ${({ theme }) => theme.colors.white};
+  background-color: ${({ theme }) => theme.colors.lightblue};
   background-position: center;
   background-repeat: no-repeat;
 `
