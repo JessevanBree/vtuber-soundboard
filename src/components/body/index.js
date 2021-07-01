@@ -36,7 +36,6 @@ class Body extends Component {
           changeFilter={this.changeFilter}
           selectedChannel={this.state.selectedChannel}
         />
-        <h1>{t('title')}</h1>
         <Sounds sounds={filteredList} />
         <Circle width={135} height={155} bgColor={colors.grey} bottom="15px" right="85px" />
 

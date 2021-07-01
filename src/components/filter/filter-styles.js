@@ -10,9 +10,11 @@ export const FiltersContainer = styled.div`
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 15px;
+  padding-bottom: 10px;
   height: 100px;
   z-index: 1;
+  border-bottom: 2px solid ${({ theme }) => theme.colors.grey};
 `
 
 export const FilterContainer = styled.div`
@@ -30,16 +32,14 @@ export const FilterBlock = styled.div`
   ${({ selectedChannel, filterType }) =>
     `filter: grayscale(${selectedChannel === filterType || selectedChannel === Filters.channels.ALL ? '0' : '1'});`
   }
-  border: 1px solid ${({ theme }) => theme.colors.black};
   border-radius: 75px;
+  border: 1px solid ${({ theme }) => theme.colors.grey};
   background-image: url(${props => `/images/${props.img}`});
-  background-position: center;
-  background-repeat: no-repeat;
   background-size: contain;
   cursor: pointer;
 
   &:hover {
-    filter: drop-shadow(1px 1px 5px black);
+    filter: drop-shadow(1px 1px 10px ${({ theme }) => theme.colors.red});
   }
 `
 
