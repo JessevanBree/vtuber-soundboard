@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const CircleContainer = styled.div`
   @media (min-width:961px)  { 
     position: absolute;
-
+    z-index: 0;
     ${ ({ width, height, bgColor, top, left, bottom, right, radius, rotation }) => `
       bottom: ${bottom || "inherit"};
       top: ${top || "inherit"};

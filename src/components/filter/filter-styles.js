@@ -12,6 +12,7 @@ export const FiltersContainer = styled.div`
   align-items: center;
   margin-top: 10px;
   height: 100px;
+  z-index: 1;
 `
 
 export const FilterContainer = styled.div`

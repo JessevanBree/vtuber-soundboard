@@ -29,7 +29,7 @@ class Body extends Component {
   render() {
     const { t, theme:{ colors } } = this.props
     const filteredList = SoundList.sort(this.compareChannels).filter(sound => sound.source.channel.includes(this.state.selectedChannel))
-    console.log(colors.lightblue)
+
     return (
       <Styled.BodyContainer>
         <Filter 
