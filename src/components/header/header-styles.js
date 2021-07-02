@@ -5,7 +5,7 @@ export const HeaderContainer = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  
+  z-index: 1;
   height: 100px;
 
   color: ${({ theme }) => theme.colors.white};

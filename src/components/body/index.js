@@ -3,7 +3,8 @@ import { withTheme } from 'styled-components'
 
 import Sounds from '../sounds'
 import Filter from '../filter'
-import Circle from '../circle'
+import Paws from './paws'
+// import Circle from '../circle'
 import * as Styled from './body-styles'
 
 import SoundList from '../../data/sounds.json'
@@ -37,13 +38,8 @@ class Body extends Component {
           selectedChannel={this.state.selectedChannel}
         />
         <Sounds sounds={filteredList} />
-        <Circle width={135} height={155} bgColor={colors.grey} bottom="15px" right="85px" />
-
-        <Circle width={50} height={65} bgColor={colors.grey} bottom="135px" right="230px" rotation="-25deg" />
-        <Circle width={50} height={75} bgColor={colors.grey} bottom="185px" right="165px" rotation="-10deg" />
-        <Circle width={50} height={75} bgColor={colors.grey} bottom="185px" right="95px" rotation="10deg" />
-        <Circle width={50} height={65} bgColor={colors.grey} bottom="135px" right="20px" rotation="25deg"/>
-
+        {/* <Circle width={155} height={155} bgColor={colors.grey} top="100px" left="85px" radius="5px"/> */}
+        <Paws colors={colors}/>
       </Styled.BodyContainer>
     )
   }
