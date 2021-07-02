@@ -4,19 +4,19 @@
     "filterType": "ALL"
   },
   {
-    "img": "moco.jpg",
+    "img": "moco.webp",
     "filterType": "MOCO"
   },
   {
-    "img": "elio.png",
+    "img": "elio.webp",
     "filterType": "ELIO"
   },
   {
-    "img": "crim.png",
+    "img": "crim.webp",
     "filterType": "CRIM"
   },
   {
-    "img": "pekora.jpg",
+    "img": "pekora.webp",
     "filterType": "PEKORA"
   }
 ]

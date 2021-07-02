@@ -42,7 +42,7 @@ class Body extends Component {
         {/* <Circle width={155} height={155} bgColor={colors.grey} top="100px" left="85px" radius="5px"/> */}
         <Paws colors={colors} />
         <Link href='/' locale={router.locale === 'en' ? 'jp' : 'en'} passHref>
-          <Styled.LanguageFlags src={`/images/${router.locale === 'en' ? 'jp' : 'en'}.png`} />
+          <Styled.LanguageFlags src={`/images/${router.locale === 'en' ? 'jp' : 'en'}.webp`} />
         </Link>
       </Styled.BodyContainer>
     )

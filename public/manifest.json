@@ -8,8 +8,8 @@
       "type": "image/x-icon"
     },
     {
-      "src": "images/icon.png",
-      "type": "image/png",
+      "src": "images/icon.webp",
+      "type": "image/webp",
       "sizes": "32x32"
     }
   ],
