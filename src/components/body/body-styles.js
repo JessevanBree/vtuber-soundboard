@@ -16,8 +16,7 @@ export const BodyContainer = styled.div`
 
 export const LanguageFlags = styled.img`
   position: absolute;
-  bottom: 25px;
-  left: 25px;
+  top: 70px;
   width: 50px;
   height: 33px;
   cursor: pointer;
@@ -30,8 +29,6 @@ export const LanguageFlags = styled.img`
   }
 
   @media (max-width:961px)  { 
-    position: fixed;
-    right: 10px;
-    left: unset;
+    top: 70px;
   }
 `

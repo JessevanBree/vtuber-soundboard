@@ -14,15 +14,15 @@
     "MOCO-BREAK-A-LEG": "Break a leg",
     "MOCO-ETO": "えーと",
     "MOCO-GOODBYE": "さよなら",
-    "MOCO-NO": "いいえ",
+    "MOCO-NO": "No",
     "MOCO-OOOH-NICE": "おー、ナイス",
     "MOCO-RIGHT-LEFT": "どっち？",
     "MOCO-THANK-YOU": "ありがとう",
-    "MOCO-UHU": "ウーフー",
-    "MOCO-WOOOW": "わーい",
-    "MOCO-WOW": "わーい",
+    "MOCO-UHU": "Uhu",
+    "MOCO-WOOOW": "Wooow",
+    "MOCO-WOW": "Wow",
     "MOCO-YES": "はい はい はい",
-    "ELIO-GRENADE": "手榴弾",
+    "ELIO-GRENADE": "Grenade",
     "ELIO-HAHAHA": "ハハハ",
     "ELIO-INAIKA": "いないか?",
     "ELIO-KONBANWA": "こんばんは～",
@@ -36,6 +36,7 @@
     "CRIM": "紅園くりむ",
     "PEKORA": "兎田ぺこら",
     "ELIO": "八劔えりお",
+    "SUZUNO": "晴宮鈴乃",
     "DIREWOLF": "Direwolf20"
   }
 }

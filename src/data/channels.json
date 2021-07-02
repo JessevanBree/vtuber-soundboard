@@ -12,6 +12,10 @@
     "filterType": "ELIO"
   },
   {
+    "img": "suzuno.webp",
+    "filterType": "SUZUNO"
+  },
+  {
     "img": "crim.webp",
     "filterType": "CRIM"
   },

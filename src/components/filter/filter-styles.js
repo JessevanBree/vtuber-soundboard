@@ -48,13 +48,17 @@ export const FilterContainer = styled.div`
   cursor: pointer;
   
   &:hover ${FilterBlock} {
-    filter: drop-shadow(1px 1px 10px ${({ theme }) => theme.colors.red});
+    filter: drop-shadow(1px 1px 15px ${({ theme }) => theme.colors.lightblue});
   }
 `
 
 
 export const FilterTitle = styled.h4`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 0px;
+  min-width: 125px;
 
   @media (max-width:961px)  { 
     min-height: 50px;
