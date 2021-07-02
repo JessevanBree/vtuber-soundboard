@@ -21,13 +21,21 @@
     "MOCO-UHU": "ウーフー",
     "MOCO-WOOOW": "わーい",
     "MOCO-WOW": "わーい",
-    "MOCO-YES": "はい はい はい"
+    "MOCO-YES": "はい はい はい",
+    "ELIO-GRENADE": "手榴弾",
+    "ELIO-HAHAHA": "ハハハ",
+    "ELIO-INAIKA": "いないか?",
+    "ELIO-KONBANWA": "こんばんは～",
+    "ELIO-RYOUKAI": "了解",
+    "ELIO-STAB": "バヨネットスタブ",
+    "ELIO-YAAA": "ヤアー"
   },
   "channels": {
     "ALL": "すべて",
     "MOCO": "子猫もこ",
     "CRIM": "紅園くりむ",
     "PEKORA": "兎田ぺこら",
+    "ELIO": "八劔えりお",
     "DIREWOLF": "Direwolf20"
   }
 }

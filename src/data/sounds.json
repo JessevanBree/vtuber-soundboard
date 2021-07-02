@@ -195,5 +195,68 @@
       "channel": "MOCO",
       "img": "moco.jpg"
     }
+  },
+  {
+    "id" : "ELIO-GRENADE",
+    "name": "elio/grenade.mp3",
+    "source": {
+      "url": "https://youtu.be/y7X2COfAsk0?t=3312",
+      "channel": "ELIO",
+      "img": "elio.png"
+    }
+  },
+  {
+    "id" : "ELIO-HAHAHA",
+    "name": "elio/hahaha.mp3",
+    "source": {
+      "url": "https://youtu.be/y7X2COfAsk0?t=3312",
+      "channel": "ELIO",
+      "img": "elio.png"
+    }
+  },
+  {
+    "id" : "ELIO-INAIKA",
+    "name": "elio/inaika.mp3",
+    "source": {
+      "url": "https://youtu.be/y7X2COfAsk0?t=3312",
+      "channel": "ELIO",
+      "img": "elio.png"
+    }
+  },
+  {
+    "id" : "ELIO-KONBANWA",
+    "name": "elio/konbanwa.mp3",
+    "source": {
+      "url": "https://youtu.be/y7X2COfAsk0?t=3312",
+      "channel": "ELIO",
+      "img": "elio.png"
+    }
+  },
+  {
+    "id" : "ELIO-RYOUKAI",
+    "name": "elio/ryoukai.mp3",
+    "source": {
+      "url": "https://youtu.be/y7X2COfAsk0?t=3312",
+      "channel": "ELIO",
+      "img": "elio.png"
+    }
+  },
+  {
+    "id" : "ELIO-STAB",
+    "name": "elio/stab.mp3",
+    "source": {
+      "url": "https://youtu.be/y7X2COfAsk0?t=3312",
+      "channel": "ELIO",
+      "img": "elio.png"
+    }
+  },
+  {
+    "id" : "ELIO-YAAA",
+    "name": "elio/yaaa.mp3",
+    "source": {
+      "url": "https://youtu.be/y7X2COfAsk0?t=3312",
+      "channel": "ELIO",
+      "img": "elio.png"
+    }
   }
 ]

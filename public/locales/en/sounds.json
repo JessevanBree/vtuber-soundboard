@@ -21,7 +21,14 @@
     "MOCO-UHU": "uhu",
     "MOCO-WOOOW": "Wooow",
     "MOCO-WOW": "Wow",
-    "MOCO-YES": "Yes yes yes"
+    "MOCO-YES": "Yes yes yes",
+    "ELIO-GRENADE": "Grenade",
+    "ELIO-HAHAHA": "Hahaha",
+    "ELIO-INAIKA": "Inai ka?",
+    "ELIO-KONBANWA": "Konbanwa",
+    "ELIO-RYOUKAI": "Ryoukai",
+    "ELIO-STAB": "Bayonet stab",
+    "ELIO-YAAA": "Yaaa"
   },
   "channels": {
     "ALL": "All",
