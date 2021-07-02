@@ -1,27 +1,16 @@
 import styled from 'styled-components'
 import Filters from '../../data/filters.json'
 
-export const FilterHeader = styled.h2`
-  margin: 15px 0px 0px;
-`
-
 export const FiltersContainer = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
-  margin-top: 15px;
+  margin: 25px 0px 0px;
   padding-bottom: 10px;
   height: 100px;
   z-index: 1;
   border-bottom: 2px solid ${({ theme }) => theme.colors.grey};
-`
-
-export const FilterContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 5px;
 `
 
 export const FilterBlock = styled.div`
@@ -36,12 +25,22 @@ export const FilterBlock = styled.div`
   border: 1px solid ${({ theme }) => theme.colors.grey};
   background-image: url(${props => `/images/${props.img}`});
   background-size: contain;
-  cursor: pointer;
+  background-position: center;
+  background-repeat: no-repeat;
+`
 
-  &:hover {
+export const FilterContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+  cursor: pointer;
+  
+  &:hover ${FilterBlock} {
     filter: drop-shadow(1px 1px 10px ${({ theme }) => theme.colors.red});
   }
 `
+
 
 export const FilterTitle = styled.h4`
   margin: 0px;
