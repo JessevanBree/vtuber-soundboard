@@ -33,5 +33,68 @@
       "channel": "MOCO",
       "img": "moco.jpg"
     }
+  },
+  {
+    "id" : "CRIM-NO",
+    "name": "crim/no.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=mQobrvuyHAw",
+      "channel": "CRIM",
+      "img": "crim.png"
+    }
+  },
+  {
+    "id" : "CRIM-BONK",
+    "name": "crim/bonk.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=mQobrvuyHAw",
+      "channel": "CRIM",
+      "img": "crim.png"
+    }
+  },
+  {
+    "id" : "CRIM-HAI",
+    "name": "crim/hai.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=mQobrvuyHAw",
+      "channel": "CRIM",
+      "img": "crim.png"
+    }
+  },
+  {
+    "id" : "CRIM-ITAI",
+    "name": "crim/itai.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=mQobrvuyHAw",
+      "channel": "CRIM",
+      "img": "crim.png"
+    }
+  },
+  {
+    "id" : "CRIM-NARUHODO",
+    "name": "crim/naruhodo.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=mQobrvuyHAw",
+      "channel": "CRIM",
+      "img": "crim.png"
+    }
+  },
+  {
+    "id" : "CRIM-OMG",
+    "name": "crim/omg.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=mQobrvuyHAw",
+      "channel": "CRIM",
+      "img": "crim.png"
+    }
+  },
+  {
+    "id" : "CRIM-ORA",
+    "name": "crim/ora.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=mQobrvuyHAw",
+      "channel": "CRIM",
+      "img": "crim.png"
+    }
   }
 ]

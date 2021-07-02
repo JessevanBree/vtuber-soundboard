@@ -3,10 +3,18 @@
     "MOCO-VERYSTRONG": "Very strong",
     "MOCO-SCREAM": "Scream",
     "PEKORA-SHADDAP": "Shaddup!",
-    "DIREWOLF-EXCITED": "Excited"
+    "DIREWOLF-EXCITED": "Excited",
+    "CRIM-NO": "Noooooo!",
+    "CRIM-BONK": "Bonk Bonk!",
+    "CRIM-HAI": "Hai",
+    "CRIM-ITAI": "ITA(Loud)",
+    "CRIM-NARUHODO": "Naruhodo ne",
+    "CRIM-OMG": "OH MY GOD!",
+    "CRIM-ORA": "Ora"
   },
   "channels": {
     "MOCO": "Small cat Moco",
+    "CRIM": "Crim Benizono",
     "PEKORA": "Usada Pekora",
     "DIREWOLF": "Direwolf20"
   }
