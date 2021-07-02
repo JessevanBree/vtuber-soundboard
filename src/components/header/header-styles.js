@@ -12,6 +12,11 @@ export const HeaderContainer = styled.div`
   background-color: ${({ theme }) => theme.colors.lightblue};
   background-position: center;
   background-repeat: no-repeat;
+
+  @media (max-width:961px)  { 
+    justify-content: flex-end;
+    padding-right: 15px;
+  }
 `
 
 export const HeaderTitle = styled.h1`
@@ -28,5 +33,12 @@ export const LanguageFlags = styled.img`
     filter: drop-shadow(1px 1px 10px ${({ theme }) => theme.colors.white});
     width: 52px;
     height: 34px;
+  }
+
+  @media (max-width:961px)  { 
+    left: 10px;
+
+    &:hover {
+    }
   }
 `

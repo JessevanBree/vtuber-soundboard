@@ -11,6 +11,13 @@ export const FiltersContainer = styled.div`
   height: 100px;
   z-index: 1;
   border-bottom: 2px solid ${({ theme }) => theme.colors.grey};
+
+  @media (max-width:961px)  { 
+    min-height: 150px;
+    max-width: 100vw;
+    overflow-y: hidden;
+    overflow-x: scroll;
+  }
 `
 
 export const FilterBlock = styled.div`
@@ -27,6 +34,10 @@ export const FilterBlock = styled.div`
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  
+  @media (max-width:961px)  { 
+    margin: 15px 5px;
+  }
 `
 
 export const FilterContainer = styled.div`
@@ -44,4 +55,8 @@ export const FilterContainer = styled.div`
 
 export const FilterTitle = styled.h4`
   margin: 0px;
+
+  @media (max-width:961px)  { 
+    min-height: 50px;
+  }
 `
