@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 import Link from 'next/link'
 import { withRouter } from 'next/router'
 import { withTheme } from 'styled-components'
@@ -6,7 +6,6 @@ import { withTheme } from 'styled-components'
 import Sounds from '../sounds'
 import Filter from '../filter'
 import Paws from './paws'
-// import Circle from '../circle'
 import * as Styled from './body-styles'
 
 import SoundList from '../../data/sounds.json'
@@ -23,28 +22,28 @@ class Body extends Component {
     })
   }
 
-  compareChannels = ( prevSound, nextSound ) => {
-    if (prevSound.name < nextSound.name ) return -1
-    if (prevSound.name > nextSound.name ) return 1
+  compareChannels = (prevSound, nextSound) => {
+    if (prevSound.name < nextSound.name) return -1
+    if (prevSound.name > nextSound.name) return 1
     return 0
   }
 
   render() {
-    const { t, router, theme:{ colors } } = this.props
+    const { t, router, theme: { colors } } = this.props
     const filteredList = SoundList.sort(this.compareChannels).filter(sound => sound.source.channel.includes(this.state.selectedChannel))
 
     return (
       <Styled.BodyContainer>
-        <Filter 
+        <Filter
           changeFilter={this.changeFilter}
           selectedChannel={this.state.selectedChannel}
         />
         <Sounds sounds={filteredList} />
         {/* <Circle width={155} height={155} bgColor={colors.grey} top="100px" left="85px" radius="5px"/> */}
-        <Paws colors={colors}/>
-        <Link href='/' locale={router.locale === 'en' ? 'jp' : 'en'}> 
+        <Paws colors={colors} />
+        <Link href='/' locale={router.locale === 'en' ? 'jp' : 'en'} passHref>
           <Styled.LanguageFlags src={`/images/${router.locale === 'en' ? 'jp' : 'en'}.png`} />
-      </Link>
+        </Link>
       </Styled.BodyContainer>
     )
   }

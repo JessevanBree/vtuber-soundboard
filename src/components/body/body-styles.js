@@ -20,7 +20,7 @@ export const LanguageFlags = styled.img`
   left: 25px;
   width: 50px;
   height: 33px;
-
+  cursor: pointer;
   border: 2px solid ${({ theme }) => theme.colors.grey};
 
   &:hover {
