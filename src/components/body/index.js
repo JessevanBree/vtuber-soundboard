@@ -1,4 +1,6 @@
 import React, {Component} from 'react'
+import Link from 'next/link'
+import { withRouter } from 'next/router'
 import { withTheme } from 'styled-components'
 
 import Sounds from '../sounds'
@@ -28,7 +30,7 @@ class Body extends Component {
   }
 
   render() {
-    const { t, theme:{ colors } } = this.props
+    const { t, router, theme:{ colors } } = this.props
     const filteredList = SoundList.sort(this.compareChannels).filter(sound => sound.source.channel.includes(this.state.selectedChannel))
 
     return (
@@ -40,10 +42,13 @@ class Body extends Component {
         <Sounds sounds={filteredList} />
         {/* <Circle width={155} height={155} bgColor={colors.grey} top="100px" left="85px" radius="5px"/> */}
         <Paws colors={colors}/>
+        <Link href='/' locale={router.locale === 'en' ? 'jp' : 'en'}> 
+          <Styled.LanguageFlags src={`/images/${router.locale === 'en' ? 'jp' : 'en'}.png`} />
+      </Link>
       </Styled.BodyContainer>
     )
   }
 }
 
-export default withTheme(Body)
+export default withRouter(withTheme(Body))
 

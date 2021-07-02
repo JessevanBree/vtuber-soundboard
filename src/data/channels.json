@@ -8,6 +8,10 @@
     "filterType": "MOCO"
   },
   {
+    "img": "elio.png",
+    "filterType": "ELIO"
+  },
+  {
     "img": "crim.png",
     "filterType": "CRIM"
   },

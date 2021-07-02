@@ -13,3 +13,25 @@ export const BodyContainer = styled.div`
     margin: 0px 50px;
   }
 `
+
+export const LanguageFlags = styled.img`
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  width: 50px;
+  height: 33px;
+
+  border: 2px solid ${({ theme }) => theme.colors.grey};
+
+  &:hover {
+    filter: drop-shadow(1px 1px 10px ${({ theme }) => theme.colors.white});
+    width: 54px;
+    height: 35px;
+  }
+
+  @media (max-width:961px)  { 
+    position: fixed;
+    right: 10px;
+    left: unset;
+  }
+`

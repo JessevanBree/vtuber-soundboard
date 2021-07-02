@@ -15,6 +15,11 @@ export const SoundContainer = styled.div`
   &:hover {
     background-color: ${({ theme }) => theme.colors.red};
   }
+
+  @media (max-width:961px)  { 
+    width: 100%;
+    margin: 5px 15px;
+  }
 `
 
 export const SoundChannelImage = styled.img`
@@ -54,11 +59,3 @@ export const SoundSourceText = styled.a`
   margin: 0px;
   color: ${({ theme }) => theme.colors.white};
 `
-
-
-  // ${props => props.img && 
-  //   `background-image: url('/images/${props.img}');
-  //   background-position: center;
-  //   background-repeat: no-repeat;
-  //   background-size: contain;
-  // `};
