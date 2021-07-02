@@ -1,3 +1,7 @@
 {
-  "title": "Vtuberサウンドボード"
+  "title": "Vtuberサウンドボード",
+  "channel": "チャンネル",
+  "filter": "フィルター",
+  "source": "ソース",
+  "disclaimer":  "これはJesse van Bree氏のファンプロジェクトです。"
 }

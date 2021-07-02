@@ -17,3 +17,16 @@ export const HeaderContainer = styled.div`
 export const HeaderTitle = styled.h1`
 
 `
+
+export const LanguageFlags = styled.img`
+  position: absolute;
+  left: 25px;
+  width: 50px;
+  height: 33px;
+
+  &:hover {
+    filter: drop-shadow(1px 1px 10px ${({ theme }) => theme.colors.white});
+    width: 52px;
+    height: 34px;
+  }
+`

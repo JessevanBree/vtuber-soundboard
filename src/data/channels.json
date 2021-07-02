@@ -1,21 +1,17 @@
 [
   {
-    "name": "All",
     "img": "yt.svg",
     "filterType": "ALL"
   },
   {
-    "name": "Moco",
     "img": "moco.jpg",
     "filterType": "MOCO"
   },
   {
-    "name": "Crim",
     "img": "crim.png",
     "filterType": "CRIM"
   },
   {
-    "name": "Usada Pekora",
     "img": "pekora.jpg",
     "filterType": "PEKORA"
   }

@@ -1,0 +1,22 @@
+{
+  "titles": {
+    "MOCO-VERYSTRONG": "とても強い",
+    "MOCO-SCREAM": "絶叫",
+    "PEKORA-SHADDAP": "シャドゥプ!",
+    "DIREWOLF-EXCITED": "Excited",
+    "CRIM-NO": "ノーーーー!",
+    "CRIM-BONK": "ボンクボンク!",
+    "CRIM-HAI": "はい",
+    "CRIM-ITAI": "いた(大音量)",
+    "CRIM-NARUHODO": "なるほどねー",
+    "CRIM-OMG": "オー・マイ・ゴッド",
+    "CRIM-ORA": "オラ"
+  },
+  "channels": {
+    "ALL": "すべて",
+    "MOCO": "子猫もこ",
+    "CRIM": "紅園くりむ",
+    "PEKORA": "兎田ぺこら",
+    "DIREWOLF": "Direwolf20"
+  }
+}

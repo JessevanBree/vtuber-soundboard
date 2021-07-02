@@ -1,8 +1,11 @@
 import React from 'react'
 import * as Styled from './filter-styles'
 import Channels from '../../data/channels.json'
+import { useTranslation } from 'next-i18next'
 
 function Filter({ changeFilter, selectedChannel }) {
+  const { t } = useTranslation()
+  
   return (
     <>
       <Styled.FiltersContainer>
@@ -14,7 +17,7 @@ function Filter({ changeFilter, selectedChannel }) {
               selectedChannel={selectedChannel}
             >
             </Styled.FilterBlock>
-            <Styled.FilterTitle>{channel.name}</Styled.FilterTitle>
+            <Styled.FilterTitle>{t(`sounds:channels:${channel.filterType}`)}</Styled.FilterTitle>
           </Styled.FilterContainer>)
         )}
       </Styled.FiltersContainer>
