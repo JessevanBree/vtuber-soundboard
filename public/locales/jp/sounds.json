@@ -10,7 +10,18 @@
     "CRIM-ITAI": "いた(大音量)",
     "CRIM-NARUHODO": "なるほどねー",
     "CRIM-OMG": "オー・マイ・ゴッド",
-    "CRIM-ORA": "オラ"
+    "CRIM-ORA": "オラ",
+    "MOCO-BREAK-A-LEG": "Break a leg",
+    "MOCO-ETO": "えーと",
+    "MOCO-GOODBYE": "さよなら",
+    "MOCO-NO": "いいえ",
+    "MOCO-OOOH-NICE": "おー、ナイス",
+    "MOCO-RIGHT-LEFT": "どっち？",
+    "MOCO-THANK-YOU": "ありがとう",
+    "MOCO-UHU": "ウーフー",
+    "MOCO-WOOOW": "わーい",
+    "MOCO-WOW": "わーい",
+    "MOCO-YES": "はい はい はい"
   },
   "channels": {
     "ALL": "すべて",

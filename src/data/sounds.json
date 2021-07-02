@@ -96,5 +96,104 @@
       "channel": "CRIM",
       "img": "crim.png"
     }
+  },
+  {
+    "id" : "MOCO-BREAK-A-LEG",
+    "name": "moco/break-a-leg.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=kZwG_OPFeQ0",
+      "channel": "MOCO",
+      "img": "moco.jpg"
+    }
+  },
+  {
+    "id" : "MOCO-ETO",
+    "name": "moco/eto.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=kZwG_OPFeQ0",
+      "channel": "MOCO",
+      "img": "moco.jpg"
+    }
+  },
+  {
+    "id" : "MOCO-GOODBYE",
+    "name": "moco/goodbye.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=kZwG_OPFeQ0",
+      "channel": "MOCO",
+      "img": "moco.jpg"
+    }
+  },
+  {
+    "id" : "MOCO-NO",
+    "name": "moco/no.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=kZwG_OPFeQ0",
+      "channel": "MOCO",
+      "img": "moco.jpg"
+    }
+  },
+  {
+    "id" : "MOCO-OOOH-NICE",
+    "name": "moco/oooh-nice.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=kZwG_OPFeQ0",
+      "channel": "MOCO",
+      "img": "moco.jpg"
+    }
+  },
+  {
+    "id" : "MOCO-RIGHT-LEFT",
+    "name": "moco/right-left.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=kZwG_OPFeQ0",
+      "channel": "MOCO",
+      "img": "moco.jpg"
+    }
+  },
+  {
+    "id" : "MOCO-THANK-YOU",
+    "name": "moco/thank-you.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=kZwG_OPFeQ0",
+      "channel": "MOCO",
+      "img": "moco.jpg"
+    }
+  },
+  {
+    "id" : "MOCO-UHU",
+    "name": "moco/uhu.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=kZwG_OPFeQ0",
+      "channel": "MOCO",
+      "img": "moco.jpg"
+    }
+  },
+  {
+    "id" : "MOCO-WOOOW",
+    "name": "moco/wooow.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=kZwG_OPFeQ0",
+      "channel": "MOCO",
+      "img": "moco.jpg"
+    }
+  },
+  {
+    "id" : "MOCO-WOW",
+    "name": "moco/wow.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=kZwG_OPFeQ0",
+      "channel": "MOCO",
+      "img": "moco.jpg"
+    }
+  },
+  {
+    "id" : "MOCO-YES",
+    "name": "moco/yes.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=kZwG_OPFeQ0",
+      "channel": "MOCO",
+      "img": "moco.jpg"
+    }
   }
 ]

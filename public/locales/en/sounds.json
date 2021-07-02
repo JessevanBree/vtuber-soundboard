@@ -10,7 +10,18 @@
     "CRIM-ITAI": "ITA(Loud)",
     "CRIM-NARUHODO": "Naruhodo ne",
     "CRIM-OMG": "OH MY GOD!",
-    "CRIM-ORA": "Ora"
+    "CRIM-ORA": "Ora",
+    "MOCO-BREAK-A-LEG": "Break a leg",
+    "MOCO-ETO": "e-to",
+    "MOCO-GOODBYE": "Goodbye",
+    "MOCO-NO": "No",
+    "MOCO-OOOH-NICE": "Oooh nice",
+    "MOCO-RIGHT-LEFT": "Which way?",
+    "MOCO-THANK-YOU": "Thank you",
+    "MOCO-UHU": "uhu",
+    "MOCO-WOOOW": "Wooow",
+    "MOCO-WOW": "Wow",
+    "MOCO-YES": "Yes yes yes"
   },
   "channels": {
     "ALL": "All",
