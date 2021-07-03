@@ -46,6 +46,7 @@ class Sound extends Component {
               onClick={(e) => { e.stopPropagation() }}
               href={source.url || "#"}
               target={source.url ? "_blank" : "_self"}
+              rel="noreferrer noopener"
             >
               {source.url && t('source')}
             </Styled.SoundSourceText>
