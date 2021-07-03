@@ -258,5 +258,257 @@
       "channel": "ELIO",
       "img": "elio.webp"
     }
+  },
+  {
+    "id" : "MOCO-A",
+    "name": "moco/a.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=-2sE4jCUjW4",
+      "channel": "MOCO",
+      "img": "moco.webp"
+    }
+  },
+  {
+    "id" : "MOCO-CMON",
+    "name": "moco/cmon.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=-2sE4jCUjW4",
+      "channel": "MOCO",
+      "img": "moco.webp"
+    }
+  },
+  {
+    "id" : "MOCO-E",
+    "name": "moco/e.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=-2sE4jCUjW4",
+      "channel": "MOCO",
+      "img": "moco.webp"
+    }
+  },
+  {
+    "id" : "MOCO-EEEEEE",
+    "name": "moco/eeeeee.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=-2sE4jCUjW4",
+      "channel": "MOCO",
+      "img": "moco.webp"
+    }
+  },
+  {
+    "id" : "MOCO-EEEEEEHE",
+    "name": "moco/eeeeeehe.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=-2sE4jCUjW4",
+      "channel": "MOCO",
+      "img": "moco.webp"
+    }
+  },
+  {
+    "id" : "MOCO-FINALLY",
+    "name": "moco/finally.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=-2sE4jCUjW4",
+      "channel": "MOCO",
+      "img": "moco.webp"
+    }
+  },
+  {
+    "id" : "MOCO-I-WON",
+    "name": "moco/i-won.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=-2sE4jCUjW4",
+      "channel": "MOCO",
+      "img": "moco.webp"
+    }
+  },
+  {
+    "id" : "MOCO-IC",
+    "name": "moco/ic.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=-2sE4jCUjW4",
+      "channel": "MOCO",
+      "img": "moco.webp"
+    }
+  },
+  {
+    "id" : "MOCO-MMM",
+    "name": "moco/mmm.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=-2sE4jCUjW4",
+      "channel": "MOCO",
+      "img": "moco.webp"
+    }
+  },
+  {
+    "id" : "MOCO-NERVOUS-LAUGH",
+    "name": "moco/nervous-laugh.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=-2sE4jCUjW4",
+      "channel": "MOCO",
+      "img": "moco.webp"
+    }
+  },
+  {
+    "id" : "MOCO-NO-AMMO",
+    "name": "moco/no-ammo.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=-2sE4jCUjW4",
+      "channel": "MOCO",
+      "img": "moco.webp"
+    }
+  },
+  {
+    "id" : "MOCO-OK-TY",
+    "name": "moco/ok-ty.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=-2sE4jCUjW4",
+      "channel": "MOCO",
+      "img": "moco.webp"
+    }
+  },
+  {
+    "id" : "MOCO-OMG",
+    "name": "moco/omg.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=-2sE4jCUjW4",
+      "channel": "MOCO",
+      "img": "moco.webp"
+    }
+  },
+  {
+    "id" : "MOCO-OUT-OF-AMMO",
+    "name": "moco/out-of-ammo.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=-2sE4jCUjW4",
+      "channel": "MOCO",
+      "img": "moco.webp"
+    }
+  },
+  {
+    "id" : "MOCO-PLEASE-WAIT",
+    "name": "moco/please-wait.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=-2sE4jCUjW4",
+      "channel": "MOCO",
+      "img": "moco.webp"
+    }
+  },
+  {
+    "id" : "MOCO-SCREAM-OK",
+    "name": "moco/scream-ok.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=-2sE4jCUjW4",
+      "channel": "MOCO",
+      "img": "moco.webp"
+    }
+  },
+  {
+    "id" : "MOCO-SCREAM2",
+    "name": "moco/scream2.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=-2sE4jCUjW4",
+      "channel": "MOCO",
+      "img": "moco.webp"
+    }
+  },
+  {
+    "id" : "MOCO-SCREAM3",
+    "name": "moco/scream3.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=-2sE4jCUjW4",
+      "channel": "MOCO",
+      "img": "moco.webp"
+    }
+  },
+  {
+    "id" : "MOCO-SCREAM4",
+    "name": "moco/scream4.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=-2sE4jCUjW4",
+      "channel": "MOCO",
+      "img": "moco.webp"
+    }
+  },
+  {
+    "id" : "MOCO-SCREAM5",
+    "name": "moco/scream5.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=-2sE4jCUjW4",
+      "channel": "MOCO",
+      "img": "moco.webp"
+    }
+  },
+  {
+    "id" : "MOCO-SCREAM6",
+    "name": "moco/scream6.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=-2sE4jCUjW4",
+      "channel": "MOCO",
+      "img": "moco.webp"
+    }
+  },
+  {
+    "id" : "MOCO-SO-DANGEROUS",
+    "name": "moco/so-dangerous.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=-2sE4jCUjW4",
+      "channel": "MOCO",
+      "img": "moco.webp"
+    }
+  },
+  {
+    "id" : "MOCO-SORRY",
+    "name": "moco/sorry.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=-2sE4jCUjW4",
+      "channel": "MOCO",
+      "img": "moco.webp"
+    }
+  },
+  {
+    "id" : "MOCO-THISX3",
+    "name": "moco/this-x3.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=-2sE4jCUjW4",
+      "channel": "MOCO",
+      "img": "moco.webp"
+    }
+  },
+  {
+    "id" : "MOCO-WELCOME",
+    "name": "moco/welcome.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=-2sE4jCUjW4",
+      "channel": "MOCO",
+      "img": "moco.webp"
+    }
+  },
+  {
+    "id" : "MOCO-WHY",
+    "name": "moco/why.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=-2sE4jCUjW4",
+      "channel": "MOCO",
+      "img": "moco.webp"
+    }
+  },
+  {
+    "id" : "MOCO-WHY2",
+    "name": "moco/why2.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=-2sE4jCUjW4",
+      "channel": "MOCO",
+      "img": "moco.webp"
+    }
+  },
+  {
+    "id" : "MOCO-YES-YES-OK",
+    "name": "moco/yes-yes-ok.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=-2sE4jCUjW4",
+      "channel": "MOCO",
+      "img": "moco.webp"
+    }
   }
 ]
