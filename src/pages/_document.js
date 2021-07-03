@@ -6,6 +6,8 @@ class AppDocument extends Document {
       <Html>
         <Head>
           <meta name="description" content="A soundboard website with sounds of various vtubers." />
+          <meta name="keywords" content="vtuber-soundboard, vtuber soundboard, vtuber, soundboard, Vtuberサウンドボード, sound, board, Small cat Moco, Crim Benizono, Elio Yatsurugi, Suzuno Haremiya, 晴宮鈴乃, 八劔えりお, 子猫もこ, 紅園くりむ, fan project, fan, Jesse van Bree, van Bree, Jesse" />
+          <meta name="author" content="Jesse van Bree" />
           <meta property="og:title" content="vtuber-soundboard" />
           <meta property="og:description" content="A soundboard website with sounds of various vtubers." />
           <meta property="og:url" content="https://https://vtuber-soundboard.nl/" />
