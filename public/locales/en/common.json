@@ -3,5 +3,7 @@
   "channel": "Channel",
   "filter": "Filter",
   "source": "Source",
-  "disclaimer":  "This is a fan project made by Jesse van Bree"
+  "disclaimer":  "This is a fan project made by Jesse van Bree",
+  "noResults":  "No audio clips were found.",
+  "error":  "Something went wrong please try reloading the page.\nIf that didnt work please try again at a later date."
 }

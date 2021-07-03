@@ -1,4 +1,5 @@
 {
+  "seconds": "{{seconds}} Seconds",
   "titles": {
     "MOCO-VERYSTRONG": "Very strong",
     "MOCO-SCREAM": "Scream",

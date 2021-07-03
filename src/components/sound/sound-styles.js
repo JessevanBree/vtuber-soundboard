@@ -43,19 +43,30 @@ export const SoundTextContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 5px;
+  margin: 3px;
   flex: 1;
 `
 
-export const SoundChannelTitle = styled.h4`
+export const SoundChannelName = styled.h5`
   margin: 0px;
+  font-size: 12px;
 `
 
 export const SoundTitle = styled.h3`
   margin: 0px;
 `
 
+export const SoundChannelDuration = styled.h4`
+  margin: 0px;
+`
+
 export const SoundSourceText = styled.a`
   margin: 0px;
   color: ${({ theme }) => theme.colors.white};
+`
+
+export const SoundIsPlayingIcon = styled.img`
+  margin: 0px;
+  width: 15px;
+  height: 15px;
 `

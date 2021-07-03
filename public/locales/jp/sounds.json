@@ -1,4 +1,5 @@
 {
+  "seconds": "{{seconds}}秒",
   "titles": {
     "MOCO-VERYSTRONG": "とても強い",
     "MOCO-SCREAM": "絶叫",

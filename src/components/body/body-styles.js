@@ -8,9 +8,10 @@ export const BodyContainer = styled.div`
   flex-direction: column;
   flex-wrap: wrap;
   background-color: ${({ theme }) => theme.colors.white};
+  margin: 25px 50px;
 
-  @media (min-width:961px)  { 
-    margin: 0px 50px;
+  @media (max-width:961px)  { 
+    margin: 25px 0px;
   }
 `
 
