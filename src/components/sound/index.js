@@ -11,7 +11,6 @@ class Sound extends Component {
   componentDidMount() {
     if (process.browser) {
       this.audio = new Audio(`/sounds/${this.props.name}`)
-
       this.audio.onloadedmetadata = () => {
         this.setState({duration: Math.round(this.audio.duration * 10) / 10 })
       }
@@ -21,7 +20,17 @@ class Sound extends Component {
     }
   }
 
-  playAudio = () => {
+  componentWillUnmount = () => {
+    if (process.browser) {
+      // Stop playing audio before cleanup to prevent mem leaks
+      this.audio.pause();
+      this.audio.currentTime = 0;
+
+      this.audio = null;
+    }
+  }
+
+  toggleAudio = () => {
     if (!this.audio) return;
     if(this.state.playing) {
       this.audio.pause();
@@ -39,7 +48,7 @@ class Sound extends Component {
 
     return (
       <>
-        <Styled.SoundContainer id={id} onClick={this.playAudio}>
+        <Styled.SoundContainer id={id} onClick={this.toggleAudio}>
           <Styled.SoundChannel>
             <Styled.SoundChannelImage src={`/images/${source.img || 'yt.svg'}`} alt="channel image" />
             <Styled.SoundSourceText

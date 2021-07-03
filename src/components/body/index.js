@@ -8,7 +8,7 @@ import Filter from '../filter'
 import Paws from './paws'
 import * as Styled from './body-styles'
 
-import SoundList from '../../data/sounds.json'
+import SoundList from '../../data/sounds'
 import Filters from '../../data/filters.json'
 
 class Body extends Component {
