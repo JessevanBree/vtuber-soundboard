@@ -12,6 +12,7 @@ export const SoundContainer = styled.div`
   color: ${({ theme }) => theme.colors.white};
   cursor: pointer;
   user-select: none;
+  text-align: center;
   
   &:hover {
     background-color: ${({ theme }) => theme.colors.red};
