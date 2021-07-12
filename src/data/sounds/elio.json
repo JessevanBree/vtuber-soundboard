@@ -61,5 +61,86 @@
       "channel": "ELIO",
       "img": "elio.webp"
     }
+  },
+  {
+    "id" : "ELIO-8",
+    "name": "elio/arigatou.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=Hh4oXJs4Kqw",
+      "channel": "ELIO",
+      "img": "elio.webp"
+    }
+  },
+  {
+    "id" : "ELIO-9",
+    "name": "elio/bye.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=Hh4oXJs4Kqw",
+      "channel": "ELIO",
+      "img": "elio.webp"
+    }
+  },
+  {
+    "id" : "ELIO-10",
+    "name": "elio/eee-dameka.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=Hh4oXJs4Kqw",
+      "channel": "ELIO",
+      "img": "elio.webp"
+    }
+  },
+  {
+    "id" : "ELIO-11",
+    "name": "elio/goodnight.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=Hh4oXJs4Kqw",
+      "channel": "ELIO",
+      "img": "elio.webp"
+    }
+  },
+  {
+    "id" : "ELIO-12",
+    "name": "elio/gununu.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=Hh4oXJs4Kqw",
+      "channel": "ELIO",
+      "img": "elio.webp"
+    }
+  },
+  {
+    "id" : "ELIO-13",
+    "name": "elio/otsukare-t2s.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=Hh4oXJs4Kqw",
+      "channel": "ELIO",
+      "img": "elio.webp"
+    }
+  },
+  {
+    "id" : "ELIO-14",
+    "name": "elio/otsukare.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=Hh4oXJs4Kqw",
+      "channel": "ELIO",
+      "img": "elio.webp"
+    }
+  },
+  {
+    "id" : "ELIO-15",
+    "name": "elio/pueh.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=Hh4oXJs4Kqw",
+      "channel": "ELIO",
+      "img": "elio.webp"
+    }
+  },
+  {
+    "id" : "ELIO-16",
+    "name": "elio/thanks-for-coming.mp3",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=Hh4oXJs4Kqw",
+      "channel": "ELIO",
+      "img": "elio.webp"
+    }
   }
 ]
