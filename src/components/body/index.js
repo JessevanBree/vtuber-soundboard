@@ -8,7 +8,6 @@ import Filter from '../filter'
 import Paws from './paws'
 import * as Styled from './body-styles'
 
-import SoundList from '../../data/sounds'
 import Filters from '../../data/filters.json'
 
 class Body extends Component {
@@ -22,24 +21,16 @@ class Body extends Component {
     })
   }
 
-  compareChannels = (prevSound, nextSound) => {
-    if (prevSound.name < nextSound.name) return -1
-    if (prevSound.name > nextSound.name) return 1
-    return 0
-  }
-
   render() {
-    const { t, router, theme: { colors } } = this.props
-    const filteredList = SoundList.sort(this.compareChannels).filter(sound => sound.source.channel.includes(this.state.selectedChannel))
-
+    const { router, theme: { colors } } = this.props
+    const { selectedChannel } = this.state
     return (
       <Styled.BodyContainer>
         <Filter
           changeFilter={this.changeFilter}
-          selectedChannel={this.state.selectedChannel}
+          selectedChannel={selectedChannel}
         />
-        <Sounds sounds={filteredList} />
-        {/* <Circle width={155} height={155} bgColor={colors.grey} top="100px" left="85px" radius="5px"/> */}
+        <Sounds selectedChannel={selectedChannel} />
         <Paws colors={colors} />
         <Link href='/' locale={router.locale === 'en' ? 'jp' : 'en'} passHref>
           <Styled.LanguageFlags src={`/images/${router.locale === 'en' ? 'jp' : 'en'}.webp`} />

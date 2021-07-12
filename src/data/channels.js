@@ -1,8 +1,4 @@
-[
-  {
-    "img": "yt.svg",
-    "filterType": "ALL"
-  },
+export const CHANNELS = [
   {
     "img": "moco.webp",
     "filterType": "MOCO"
@@ -23,4 +19,12 @@
     "img": "pekora.webp",
     "filterType": "PEKORA"
   }
+]
+
+export const CHANNEL_FILTERS = [
+  {
+    "img": "yt.svg",
+    "filterType": "ALL"
+  },
+  ...CHANNELS
 ]

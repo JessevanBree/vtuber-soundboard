@@ -1,6 +1,6 @@
 import React from 'react'
 import * as Styled from './filter-styles'
-import Channels from '../../data/channels.json'
+import { CHANNEL_FILTERS } from '../../data/channels'
 import { useTranslation } from 'next-i18next'
 
 function Filter({ changeFilter, selectedChannel }) {
@@ -9,7 +9,7 @@ function Filter({ changeFilter, selectedChannel }) {
   return (
     <>
       <Styled.FiltersContainer>
-        {Channels.map((channel, i) => (
+        {CHANNEL_FILTERS.map((channel, i) => (
           <Styled.FilterContainer onClick={() => changeFilter(channel.filterType)} key={`channel.name_${i}`}>
             <Styled.FilterBlock
               img={channel.img}

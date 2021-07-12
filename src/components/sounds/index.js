@@ -1,30 +1,23 @@
 import React from 'react'
+import { useTranslation } from 'next-i18next'
+import SoundsPerChannel from '../../data/sounds'
+import {CHANNELS} from '../../data/channels'
 import * as Styled from './sounds-styles'
 import Sound from '../sound'
-import { useTranslation } from 'next-i18next'
 
-export default function Sounds({ sounds }) {
+
+export default function Sounds({ selectedChannel }) {
   const { t } = useTranslation()
-  let categorizedSounds = {}
-  if (sounds) {
-    sounds.forEach(sound => {
-      if (categorizedSounds[sound.source.channel]) {
-        categorizedSounds[sound.source.channel].push({ ...sound })
-      } else {
-        categorizedSounds[sound.source.channel] = [{ ...sound }]
-      }
-    })
-  }
-  const csKeys = Object.keys(categorizedSounds)
+  const channels = CHANNELS.filter(({filterType}) => selectedChannel ? selectedChannel === filterType : true).map((channel) => channel.filterType)
 
-  return categorizedSounds ? (
+  return SoundsPerChannel ? (
     <Styled.ChannelsContainer>
       {
-        csKeys.map((channel) => {
-          const sounds = categorizedSounds[channel]
+        channels.map((channel) => {
+          const sounds = SoundsPerChannel[channel]
           return (
             <Styled.ChannelContainer key={`channel_sounds_${channel}`}>
-              {csKeys.length > 1 && <Styled.ChannelTitle>{t(`sounds:channels:${channel}`)}</Styled.ChannelTitle>}
+              {channels.length > 1 && <Styled.ChannelTitle>{t(`sounds:channels:${channel}`)}</Styled.ChannelTitle>}
               <Styled.SoundsContainer key={`channel_sounds_${channel}`}>
                 {sounds.map(sound => <Sound key={`sound_${sound.id}`} {...sound} />)}
               </Styled.SoundsContainer>
