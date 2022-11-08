@@ -15,6 +15,14 @@ export const CHANNELS = [
     "img": "crim.webp",
     "filterType": "CRIM"
   },
+  // {
+  //   "img": "oren.webp",
+  //   "filterType": "OREN"
+  // },
+  // {
+  //   "img": "uto.webp",
+  //   "filterType": "UTO"
+  // },
   {
     "img": "pekora.webp",
     "filterType": "PEKORA"
